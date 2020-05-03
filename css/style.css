@@ -1,0 +1,318 @@
+@font-face
+{
+    font-family: ar-font;
+    src: url(../fonts/Cairo-SemiBold.ttf)
+}
+
+body
+{
+    direction: rtl;
+    font-family: ar-font;
+}
+
+header
+{
+    background-image: url(../images/headerbg.jpg);
+    background-size: cover;
+    background-position: center ;
+    /* height: 1000px; */
+
+}
+
+
+header .brand
+{
+    padding-top: 80px;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #464c53;
+    border-radius: 2px;
+    width: 25%;
+    display: inline-block;
+
+}
+
+header .brand .logo 
+{
+    padding-right: 35px;
+}
+header .slogn
+{
+    margin-top: 13px;
+    /* margin-left: 30px; */
+}
+
+header .page-heading h1
+{
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+header .page-heading p
+{
+    font-size: 15px;
+    color: #acacac;
+    width: 30%;
+    margin: 0 auto;
+}
+
+header .counter .countdown-amount
+{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: block;
+}
+
+header .counter .countdown-period
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+}
+
+header .counter .countdown-section
+{
+    display: inline-block;
+    margin:0px 30px;
+}
+
+header .counter
+{
+    margin: 60px auto;
+    padding: 30px;
+    padding-bottom: 170px;
+}
+
+/* تنسيقات نموذج بريد الكتروني */
+header .send-notification
+{
+    position: absolute;
+    
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -130px;
+}
+
+
+header .send-notification p 
+{
+    font-size: 18px;
+    color: #fff;
+}
+
+header .send-notification .input-group input, footer .input-group input
+{
+    font-size: 18px;
+    font-family: ar-font;
+    /* color: #e6e6e6; */
+    border-width: 2px;
+    border-color: #e6e6e6;
+    border-radius: 0;
+    height: 57px;
+    
+
+}
+
+header .send-notification .input-group input:hover, 
+header .send-notification .input-group input:focus,
+footer .input-group input:hover, 
+footer  .input-group input:focus
+ {
+
+    box-shadow: 0 0 0;
+    border-color: #e6e6e6; 
+ }
+  
+
+header .send-notification .input-group button, footer button
+{
+    border-radius: 0;
+    background-color: #ffce00;
+    padding: .5rem 1.5rem;
+ }
+
+ header .send-notification .input-group ,footer .input-group
+ {
+    width: 30%;
+    margin: 0 auto;
+    
+ } 
+
+ header .send-notification .input-group .alert ,footer .alert
+ {
+    
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    display: none;
+ }
+
+/* قسم مميزات اللعبة */
+section.features 
+{
+    
+    text-align: right;
+    padding: 40px 0;
+    position: relative;
+    
+ }
+  
+  section.features h2 
+  {
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #555555;
+  }
+  
+  section.features .media 
+  {
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    max-height: 190px;
+  }
+  
+  section.features .media .media-body h5 
+  {
+    font-size: 24px;
+    color: #555;
+  }
+  
+  section.features .media .media-body p 
+  {
+    font-size: 15px;
+    line-height: 25px;
+    color: #9c9c9c;
+    
+  }
+  
+  section.features div[class*="col-"]:nth-child(even) 
+  {
+    text-align: right;
+    
+  }
+  
+  /* تذيل الصفحة */
+  footer 
+  {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  footer .top-footer .overlay 
+  {
+    background-color: rgba(255, 204, 0, 0.7);
+    padding: 60px 0;
+  }
+  
+  footer .top-footer .overlay h3 
+  {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+  
+  footer button
+  {
+      background-color: #393939 !important;
+      border-radius: 0 !important;
+  }
+
+  footer .input-group input
+  {
+      height: 54px;
+  }
+  
+  footer .top-footer .overlay .input-group input:hover, footer .top-footer .overlay .input-group input:focus {
+    box-shadow: 0 0 0;
+    border-color: #e6e6e6; 
+  }
+  
+  
+  
+  footer .top-footer .overlay .input-group button:hover, footer .top-footer .overlay .input-group button:focus {
+    box-shadow: 0 0 0;
+    border-color: transparent;
+  }
+  
+ 
+  
+  footer .contact .overlay {
+    background-color: rgba(28, 28, 28, 0.7);
+    padding: 60px 0 10px;
+    color: #fff;
+  }
+  
+  footer .contact .overlay h3 {
+    font-size: 30px;
+    margin: 0 auto 30px;
+  }
+  
+  footer .contact .overlay ul {
+    padding: 0;
+  }
+  
+  footer .contact .overlay ul li {
+    margin: 0 5px 10px;
+  }
+  
+  footer .contact .overlay ul li a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 1.2em;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  footer .contact .overlay ul li a.facebook:hover {
+    background-color: #3b5999;
+  }
+  
+  footer .contact .overlay ul li a.twitter:hover {
+    background-color: #55acee;
+  }
+  
+  footer .contact .overlay ul li a.linkedin:hover {
+    background-color: #0077B5;
+  }
+  
+  footer .contact .overlay ul li a.instagram:hover {
+    background-color: #e4405f;
+  }
+  
+  footer .contact .overlay hr {
+    width: 25%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+  }
+  
+  footer .contact .overlay p a {
+    color: #b4b4b4;
+  }
+  
+  footer .contact .overlay p a i {
+    color: #ffce00;
+    margin-left: 5px;
+  }
+  
+  footer .contact .overlay p a:hover, footer .contact .overlay p a:focus {
+    text-decoration: none;
+  }
+
+  /* تنسيقات الشاشات الصغيرة */
+  @media (max-width: 1024px) {
+     header  .form-group .input-group, footer .form-group .input-group{
+          width: 50%;
+      }
+
+  }
